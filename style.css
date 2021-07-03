@@ -5,10 +5,14 @@ body{
 h1{
     font-size: 50px;
 }
+
+h2{
+    font-size: 35px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.faxeval{
     display: flex;
 }
 .half-width{
@@ -37,4 +41,30 @@ section{
     background-image: url("img/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.exp-section{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 15px 8px 35px turquoise;
+    border-radius: 10px;
+    padding-left: 20px;
+}.expreince{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+#ful-web{
+    border-left: 9px solid ;
+    border-image: linear-gradient(red, green);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 9px solid ;
+    border-image: linear-gradient(rgb(66, 163, 66), rgb(215, 230, 16));
+    border-image-slice: 1; 
+}
+footer{
+    text-align: center;
 }
